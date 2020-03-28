@@ -7,14 +7,18 @@
 //
 
 import UIKit
+import CoreData
 
-class SettingsViewController: UIViewController, UITableViewDelegate {
+class SettingsViewController: UIViewController{
     
     @IBOutlet weak var tfUSDValue: UITextField!
     @IBOutlet weak var tfIOFValue: UITextField!
+    @IBOutlet weak var tableView: UITableView!
     
     let config = Configuration.shared
     let statesManager = StatesManager()
+    
+    var fetchedResultController: NSFetchedResultsController<State>!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,14 +39,7 @@ class SettingsViewController: UIViewController, UITableViewDelegate {
         tfIOFValue.text = String(format:"%.2f", config.iofValue)
         
         statesManager.loadStates(with: self.context)
-    }
-
-    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        
-        let state = statesManager.states[indexPath.row]
-        cell.textLabel?.text = state.name
-        cell.detailTextLabel?.text = String(format:"%.2f", state.tax)
+        tableView.reloadData()
     }
     
     override func didReceiveMemoryWarning() {
@@ -107,3 +104,46 @@ class SettingsViewController: UIViewController, UITableViewDelegate {
     }
     
 }
+
+extension SettingsViewController: UITableViewDataSource{
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return statesManager.states.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        
+        let state = statesManager.states[indexPath.row]
+        cell.textLabel?.text = state.name
+        cell.detailTextLabel?.text = String(format:"%.2f", state.tax)
+        
+        return cell
+    }
+    
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+            
+            let state = statesManager.states[indexPath.row]
+            context.delete(state)
+            
+            do {
+                try context.save()
+            } catch {
+                print(error.localizedDescription)
+            }
+            
+            formatView()
+        }
+    }
+
+}
+
+extension SettingsViewController: UITableViewDelegate{
+    
+}
+

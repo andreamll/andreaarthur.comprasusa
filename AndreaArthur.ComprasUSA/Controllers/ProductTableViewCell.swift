@@ -15,7 +15,6 @@ class ProductTableViewCell: UITableViewCell {
     @IBOutlet weak var lbName: UILabel!
     @IBOutlet weak var lbState: UILabel!
     @IBOutlet weak var lbUSPrice: UILabel!
-    @IBOutlet weak var lbBRLPrice: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -32,8 +31,6 @@ class ProductTableViewCell: UITableViewCell {
         lbName.text = product.name ?? ""
         lbState.text = product.state?.name ?? ""
         lbUSPrice.text = "US$ " + String(format:"%.2f", product.usPrice)
-        lbBRLPrice.text = "R$ " + String(format:"%.2f", product.brlPrice)
-        
         if let image = product.imageProduct as? UIImage {
             ivProduct.image =  image
         } else {

@@ -135,11 +135,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AndreaArthur.ComprasUSA/Controllers/SettingsViewController.swift"
-            timestampString = "607035820.779091"
+            timestampString = "607102045.889598"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
             landmarkName = "formatView()"
             landmarkType = "7">
          </BreakpointContent>
@@ -151,12 +151,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AndreaArthur.ComprasUSA/Controllers/SettingsViewController.swift"
-            timestampString = "607035820.779179"
+            timestampString = "607102045.890126"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
-            landmarkName = "tableView(_:willDisplay:forRowAt:)"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "showAlert(with:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -167,11 +167,43 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AndreaArthur.ComprasUSA/Controllers/SettingsViewController.swift"
-            timestampString = "607035820.779247"
+            timestampString = "607102045.890461"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "84"
-            endingLineNumber = "84"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "showAlert(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AndreaArthur.ComprasUSA/Controllers/SettingsViewController.swift"
+            timestampString = "607102045.890781"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "showAlert(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AndreaArthur.ComprasUSA/Controllers/SettingsViewController.swift"
+            timestampString = "607102045.89114"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
             landmarkName = "showAlert(with:)"
             landmarkType = "7">
             <Locations>
@@ -183,27 +215,27 @@
                   moduleName = "AndreaArthur.ComprasUSA"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/achuang/Documents/IOSDev/AndreaArthur.ComprasUSA/AndreaArthur.ComprasUSA/Controllers/SettingsViewController.swift"
-                  timestampString = "606952095.034084"
+                  timestampString = "607101563.094896"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "84"
-                  endingLineNumber = "84"
-                  offsetFromSymbolStart = "37">
+                  startingLineNumber = "94"
+                  endingLineNumber = "94"
+                  offsetFromSymbolStart = "2764">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "implicit closure #1 : @autoclosure () throws -&gt; AndreaArthur_ComprasUSA.State in closure #3 (__ObjC.UIAlertAction) -&gt; () in AndreaArthur_ComprasUSA.SettingsViewController.showAlert(with: Swift.Optional&lt;AndreaArthur_ComprasUSA.State&gt;) -&gt; ()"
+                  symbolName = "closure #3 (__ObjC.UIAlertAction) -&gt; () in AndreaArthur_ComprasUSA.SettingsViewController.showAlert(with: Swift.Optional&lt;AndreaArthur_ComprasUSA.State&gt;) -&gt; ()"
                   moduleName = "AndreaArthur.ComprasUSA"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/achuang/Documents/IOSDev/AndreaArthur.ComprasUSA/AndreaArthur.ComprasUSA/Controllers/SettingsViewController.swift"
-                  timestampString = "606952095.0391099"
+                  timestampString = "607101563.098179"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "84"
-                  endingLineNumber = "84"
-                  offsetFromSymbolStart = "14">
+                  startingLineNumber = "94"
+                  endingLineNumber = "94"
+                  offsetFromSymbolStart = "3343">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -211,48 +243,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AndreaArthur.ComprasUSA/Controllers/SettingsViewController.swift"
-            timestampString = "607035820.779309"
+            timestampString = "607102045.891516"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "88"
-            endingLineNumber = "88"
-            landmarkName = "showAlert(with:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AndreaArthur.ComprasUSA/Controllers/SettingsViewController.swift"
-            timestampString = "607035820.779369"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "95"
-            endingLineNumber = "95"
-            landmarkName = "showAlert(with:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AndreaArthur.ComprasUSA/Controllers/SettingsViewController.swift"
-            timestampString = "607035820.77943"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "96"
-            endingLineNumber = "96"
-            landmarkName = "showAlert(with:)"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
+            landmarkName = "tableView(_:commit:forRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

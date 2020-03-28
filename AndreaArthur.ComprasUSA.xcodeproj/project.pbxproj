@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CD30ABF72426C9600029D1A6 /* StatesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30ABF62426C9600029D1A6 /* StatesManager.swift */; };
+		CD3B8F8F242F831800CA1B33 /* ProductsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3B8F8E242F831800CA1B33 /* ProductsManager.swift */; };
 		CD4FAEFA2427B05D00DAE381 /* ShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4FAEF92427B05D00DAE381 /* ShoppingViewController.swift */; };
 		CD4FAEFC2427B35600DAE381 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4FAEFB2427B35600DAE381 /* SettingsViewController.swift */; };
 		CDB91BC2242544EC00026F0B /* ProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB91BC1242544EC00026F0B /* ProductsTableViewController.swift */; };
@@ -26,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		CD30ABF62426C9600029D1A6 /* StatesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatesManager.swift; sourceTree = "<group>"; };
+		CD3B8F8E242F831800CA1B33 /* ProductsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsManager.swift; sourceTree = "<group>"; };
 		CD4FAEF92427B05D00DAE381 /* ShoppingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingViewController.swift; sourceTree = "<group>"; };
 		CD4FAEFB2427B35600DAE381 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		CDB91BC1242544EC00026F0B /* ProductsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 			children = (
 				CDFC1C772427DB17004B41E6 /* Configuration.swift */,
 				CD30ABF62426C9600029D1A6 /* StatesManager.swift */,
+				CD3B8F8E242F831800CA1B33 /* ProductsManager.swift */,
 				CDBA3B8724219FD500A75CB6 /* AndreaArthur_ComprasUSA.xcdatamodeld */,
 			);
 			path = Models;
@@ -198,6 +201,7 @@
 				CD30ABF72426C9600029D1A6 /* StatesManager.swift in Sources */,
 				CDB91BC82425466000026F0B /* ProductViewController.swift in Sources */,
 				CDB91BCC242547C600026F0B /* ProductAddEditViewController.swift in Sources */,
+				CD3B8F8F242F831800CA1B33 /* ProductsManager.swift in Sources */,
 				CDBA3B8924219FD500A75CB6 /* AndreaArthur_ComprasUSA.xcdatamodeld in Sources */,
 				CDBA3B8124219FD500A75CB6 /* AppDelegate.swift in Sources */,
 				CDB91BD2242560D500026F0B /* ViewController+CoreData.swift in Sources */,
